@@ -1,0 +1,9 @@
+app:
+  id:  ect-eureka-server
+
+apollo:
+  meta: http://10.4.60.109:9001
+  bootstrap:
+    enabled: true
+    eagerLoad: true
+    namespaces: application.yml
